@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 2rem;
+}
+header{
+    background-color: gray;
+    text-align: center;
+}
+
+/*design*/
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin-left: 100px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+/* contents*/
+
+
+.content2{
+    margin-top: -975px;
+    padding: 500px;
+    text-align: justify;
+    background-image: url(stoneface.webp); 
+    background-size: cover;
+      background-attachment: fixed; 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.content2 p {
+    background-color: black;
+    border-radius: 10px;
+    font-size: 30px;
+    border: 5px solid maroon;
+    color: white;
+}
+.content2 h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+} 
+
+.content3{
+    margin-top: 4px;
+    text-align: center;
+    margin-bottom: 500px;
+    font-size: 30px;
+    color: white;
+}
+
+/* for image */
+
+
+.the-eye {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    height: 400px;
+    margin-top: auto;
+    border: solid white;
+    border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px white;
+    animation: slide 2s ease;
+}
+@keyframes slide{
+    from{
+        transform: translateX(200%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+/* hyperlink */
+
+.info2 {
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: -305px;
+    box-shadow: 10px 10px 10px maroon;
+}
+
+.info2 a{
+    text-decoration: none;
+    color: maroon;
+}
+.info2 a:hover{
+    text-decoration: underline;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    margin-top: 325px;
+    font-size: 20px;
+
+    
+}

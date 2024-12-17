@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: url(uchihas.png);
+    font-size: 2rem;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: gray;
+}
+.text{
+    color: white;
+    font-size: 50px;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    margin-top: 400px;
+    margin-bottom: 400px;
+    margin-left: 600px;
+    margin-right: 600px;
+    animation: bounceleftright 7s ease-in-out infinite;
+    border-radius: 20px;
+  }
+  @keyframes bounceleftright {
+    0%, 100% {
+      transform: translateX(-100px);
+      background-color: red;
+    }
+    25% {
+      transform: translateX(100px); 
+      background-color: black;
+    }
+    50% {
+      transform: translateX(-100px);
+      background-color: maroon;
+    }
+    75% {
+      transform: translateX(100px); 
+      background-color: rebeccapurple;
+    }
+    100% {
+        transform: translateX(-100px);
+        background-color: red;
+    }
+  }
+
+/* design */
+
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin-left: 100px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+/*content*/
+
+.header{
+    font-size: 70px;
+    margin-top: 70px;
+    padding: 500px;
+    color: white;
+}
+
+.social-icons {
+    text-align: center;
+    margin-bottom: -55px;
+    
+  }
+
+  .social-icons a {
+    text-decoration: none;
+    color: gray; 
+    font-size: 100px;
+    margin: 15px;
+  }
+
+  .social-icons a:hover {
+    color: red; 
+  }
+
+/*footer*/
+
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+
+
+
